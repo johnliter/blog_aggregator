@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Liter | Blog Aggregator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/0dc91f6a7f.js" crossorigin="anonymous"></script></head>
+<body>
+    <header class="futuristic-header">
+        <div class="header-content">
+            <h1>John Liter</h1>
+            <p class="subtitle">Retired U.S. Army Staff Sergeant | Tech Enthusiast</p>
+            <div class="particles" id="particles-js"></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="search-section">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search posts...">
+                <button id="searchButton" title="Search"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="wordpress">WordPress</button>
+                <button class="filter-btn" data-filter="dailydev">Daily.dev</button>
+                <button class="filter-btn" data-filter="hashnode">Hashnode</button>
+                <button class="filter-btn" data-filter="devto">Dev.to</button>
+                <button class="filter-btn" data-filter="kofi">Ko-fi</button>
+            </div>
+        </section>
+
+        <section class="posts-grid" id="postsContainer">
+            <!-- Posts will be loaded here dynamically -->
+            <div class="loader">
+                <div class="spinner"></div>
+                <p>Loading posts...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="futuristic-footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://x.com/te03civiclx1" aria-label="X (formerly Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://github.com/johnliter" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/john-liter-5a872661/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; <span id="year"></span> John Liter. All rights reserved.</p>
+            <p class="military-credential">Retired U.S. Army Staff Sergeant</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
