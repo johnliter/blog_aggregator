@@ -5,5 +5,12 @@
       "date": "2025-04-25",
       "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzoq4yhjbt78ya5texhfz.jpg",
       "url": "https://dev.to/jliter/why-every-developer-should-be-using-github-in-2025-1d1i"
+    },
+    {
+      "title": "How I Built a Unified Blog Aggregator with HTML, CSS, and JavaScript",
+      "excerpt": "As a retired U.S. Army Staff Sergeant turned tech enthusiast, I write across multiple platforms...",
+      "date": "2025-04-30",
+      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fx8akmrof2qnatw3naq6s.jpeg",
+      "url": "https://dev.to/jliter/how-i-built-a-unified-blog-aggregator-with-html-css-and-javascript-4gna"
     }
   ]
