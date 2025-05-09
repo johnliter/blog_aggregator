@@ -33,5 +33,12 @@
       "date": "2025-05-08",
       "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fd9hkauqknvvqe0ds9sy2.jpg",
       "url": "https://dev.to/jliter/teaching-kids-css-making-websites-colorful-part-2-of-series-44ha"
+    },
+    {
+      "title": "Teaching Kids JavaScript: Making Websites Interactive! (Part 3 of Series)",
+      "excerpt": "Now that your child has created colorful websites with HTML and CSS...",
+      "date": "2025-05-10",
+      "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhhnr9iekp52b2dyavxkf.jpeg",
+      "url": "https://dev.to/jliter/teaching-kids-javascript-making-websites-interactive-part-3-of-series-1i2k"
     }
   ]
